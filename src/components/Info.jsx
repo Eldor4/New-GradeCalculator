@@ -3,9 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import BarChartRoundedIcon from '@material-ui/icons/BarChartRounded';
 import InfoRoundedIcon from '@material-ui/icons/InfoRounded';
-import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 
 
@@ -49,9 +47,6 @@ export default function Info({close}) {
   )
   );
 
-  const handlClick=()=>{
-    close(close)
-  };
 
   
   const classes = useStyles();  

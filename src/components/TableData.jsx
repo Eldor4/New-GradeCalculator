@@ -164,27 +164,26 @@ export default function TableData() {
        </Link>
         :""}
        {sum<100&&localStorageData.length>=1 ?
-      <Button onClick={clear}
-      variant="outlined"
-      color="secondary"
-      size="large"
-      className={classes.button}
-      startIcon={<DeleteOutlineRoundedIcon />}>
-          נקה
-      </Button>
+        <Button onClick={clear}
+        variant="outlined"
+        color="secondary"
+        size="large"
+        className={classes.button}
+        startIcon={<DeleteOutlineRoundedIcon />}>
+            נקה
+        </Button>
       :""}
        {sum===100 ?
-      <Button onClick={clear}
-      variant="outlined"
-      color="secondary"
-      size="large"
-      className={classes.button}
-      startIcon={<DeleteOutlineRoundedIcon />}>
-          נקה
-      </Button>
-      :""}
-    <div>
-    </div> 
+        <Button onClick={clear}
+        variant="outlined"
+        color="secondary"
+        size="large"
+        className={classes.button}
+        startIcon={<DeleteOutlineRoundedIcon />}>
+            נקה
+        </Button>
+       :""}
+        <div></div> 
     </div>
   )
 }
